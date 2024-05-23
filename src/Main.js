@@ -20,8 +20,6 @@ class Main extends React.Component {
         </div>
         <div className="sub-container">
           <Header />
-        </div>
-        <div className="sub-container">
           <Feed />
         </div>
       </div>

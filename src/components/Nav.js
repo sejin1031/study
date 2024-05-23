@@ -11,8 +11,17 @@ class Nav extends React.Component {
 
   render () {
     return (
-      <div className="nav">
-        dd
+      <div className="nav-container">
+        <div className="logo">
+          <a href="https://instagram.com">Clonestagram</a>
+        </div>
+
+        <ul className="nav-list">
+          <li>Search</li>
+          <li>People</li>
+          <li>Favorite</li>
+        </ul>
+        
       </div>
     )
   }
